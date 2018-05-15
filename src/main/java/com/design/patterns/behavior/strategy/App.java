@@ -11,6 +11,5 @@ public class App {
         System.out.println("2 + 3 = " + context.executeStrategy(2, 3));
         context = new Context(new StrategyPow());
         System.out.println("2 ^ 3 = " + context.executeStrategy(2, 3));
-
     }
 }
